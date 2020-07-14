@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #b7cbd3;
+}
+
+.table1 {
+  display: grid;
+  grid-template-columns: repeat(10,minmax(auto,200px));
+  grid-template-rows: repeat(8,minmax(auto,40px));
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+}
+
+.table2 {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(auto,200px));
+  grid-template-rows: repeat(6,minmax(auto,50px));
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.table3 {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(auto,200px));
+  grid-template-rows: repeat(6,minmax(auto,50px));
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.table4 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(auto,800px));
+  grid-template-rows: 80px minmax(auto,100px));
+  grid-row-gap: 20px;
+  grid-column-gap: 50px;
+  justify-items: center;
+}
+
+
+.table5 {
+  display: grid;
+  grid-template-columns: repeat(1,minmax(auto,1600px));
+  grid-template-rows: 80px minmax(auto,100px));
+  grid-row-gap: 20px;
+  grid-column-gap: 50px;
+  justify-items: center;
+}
+
+.white {
+  color: white !important;
+  text-align: center !important;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.margin1 {
+  margin: 0px 0px 0px 20px;
+}
+
+.margin2 {
+  margin: 0px 0px 0px 40px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 105%;
+}
+.card .fas{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+.card hr{
+    width: 20%;
+    border-top: 0.2rem solid #a7a7a7;
+}
+.card-body{
+    font-size: 0.9rem;
+}
+.card-deck{
+    margin: 4rem 6rem;
+}
+.card{
+    transition: box-shadow .2s;
+}
+.card:hover{
+    box-shadow: 0 0 11px rgba(5, 90, 114, 0.6);
+}
+.wrapperdo, .ques{
+    background-color: #ffffff;
+    width: 98%;
+    padding: 2rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.do > i{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+}
+.fa-headset{
+    font-size: 10rem;
+}
+.links{
+    background-color: #8fb3d1;
+    padding: 2rem;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0.4rem;
+}
+a:hover{
+    color: #b0dcee;
+}
+.connect{
+    background-color: #588aa8;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding: 2rem 0 3rem 0;
+    height: 30%;
+}
+.social a{
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #bbe0f7;
+}
+.social a:hover{
+    color: #ebf7ff
+}
+
+@media (max-width: 1024px){
+.card-deck{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+}
+
+@media (max-width: 820px){
+    .card hr, .card-text{
+        display: none;
+    }
+    .card-deck .card{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .fa-headset{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width:765px){
+    .card-body{
+
+    }
+    .links{
+        padding: 0.9rem;
+    }
+    .links a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px){
+    .do i, .fa-headset{
+        display: none;
+    }
+    .links a{
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+    }
+    .connect h2{
+        font-size: 1.3rem;
+    }
+    .social{
+        font-size: 1.8rem;
+    }
+}
