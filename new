@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="style2.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="card-deck text-center">
+         <!-- <div class="col-sm-3"> -->
+                <div class="card">
+                    <i class="fas fa-lightbulb"></i>
+                       <div class="card-body">
+                      <h5 class="card-title">IDEA LISTS</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Screen best Stocks</h6>
+                      <hr>
+                      <p class="card-text">Generate ideas using our algorithmically-generated lists. Provides pre-set lists using empirically tested parameters and strategies.</p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+            <!-- <div class="col-sm-3"> -->
+                <div class="card">
+                    <i class="fas fa-balance-scale"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">EVALUATION</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Analyze a Stock</h6>
+                      <hr>
+                      <p class="card-text">Gauge the strength of a stock using the perfect blend of technical and fundamental data alongside our proprietary stock ratings.</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="col-sm-3"> -->
+                <div class="card">
+                    <i class="fas fa-binoculars"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">MARKET OUTLOOK</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Analyze the Market</h6>
+                      <hr>
+                      <p class="card-text">Our daily and weekly analysis of the Indian market gives you an idea as to whether the current market is helping or hurting your portfolio.</p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+            <!-- <div class="col-sm-3"> -->
+                <div class="card">
+                    <i class="fas fa-book-open"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">MODEL PORTFOLIO</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Follow our Lead</h6>
+                      <hr>
+                      <p class="card-text">Power your portfolio with an actionable list of handpicked CAN SLIM stocks.</p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <div class="container-fluid graph shadow bg-white rounded">
+        <h4>MODEL PORTFOLIO</h4>
+        <hr>
+        <div class="row text-center">
+        <div class="col-12">
+            <img class="p-1 m-2 d-none d-md-block" src="img/bargraph.png">
+            <img class="p-1 m-2 d-block d-md-none" src="img/bargraphsmall.png">
+        </div>
+        <div class="col-12">
+            <a href="#" class="btn btn-primary mt-2">View Performance</a>
+        </div>
+        </div>
+    </div>
+    <div class="container-fluid wrapperdo shadow bg-white rounded">
+        <h4>WHAT WE DO</h4>
+        <hr>
+        <div class="row p-2">
+            <div class="do col-sm-1 text-center">
+                <i class="fas fa-briefcase"></i>
+            </div>      
+            <div class="do col-sm-3">
+                <h5>Investment ideas</h5>
+                <p>Our methodology brings great ideas into focus. We cut through market noise to deliver actionable investment ideas.</p>
+            </div>
+            <div class="do col-sm-1 text-center">
+                <i class="fas fa-coins"></i>
+            </div>
+            <div class="do col-sm-3">
+                <h5>Picking great stocks</h5>
+                <p>We are driven by a passion of picking great stocks. Our team of experts cultivates client partnerships that produce results.</p>            
+            </div>
+            <div class="do col-sm-1 text-center">
+                <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="do col-sm-3">
+                <h5>Generation of ideas</h5>
+                <p>We generate ideas so that you can generate alpha. For over 50 years, our superior stock picks have helped portfolio managers outperform their peers.</p>            
+            </div>  
+        </div>    
+    </div>
+    <div class="container-fluid ques mb-5 shadow bg-white rounded ">
+        <h4>HAVE A QUESTION</h4>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3 text-right mt-3">
+                <i class="fas fa-headset"></i>
+            </div>
+            <div class="col-sm-9 text-center">
+                <p class="h6 pb-3">OUR TEAM OF ANALYSTS IS ALWAYS READY TO HELP YOU. PLEASE POST A QUERY USING THE LINK BELOW.</p>
+                <a href="" class="btn btn-primary mb-3">POST A QUERY</a>
+                <p><b>FOR SALES SUPPORT</b></p>
+                <p>+91-80-6745 3830 / 831 / 832</p>
+                <p>sales@marketsmithindia.com</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row links text-center">
+                <div class="col-4">
+                    <a href="">Take a trial</a>
+                    <a href="">Technical Analysis</a>
+                    <a href="">Fundamental Analysis</a>
+                    <a href="">Pattern Recognition</a>
+                </div>
+                <div class="col-4">
+                    <a href="">MarketSmith India Blog</a>
+                    <a href="">CANSLIM Workshop</a>
+                    <a href="">Webinars</a>
+                </div>
+                <div class="col-4">
+                    <a href="">MarketSmith US</a>
+                    <a href="">William O'Neil India</a>
+                    <a href="">Investing University</a>
+                    <a href="">Become  Partner</a>
+                </div>    
+            </div>   
+            <div class="row text-center connect">
+                <div class="col-12">
+                    <h2>Connect</h2>
+                </div>
+                <div class="col-12 social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div> 
+    </footer>
+  </body>
+</html>
